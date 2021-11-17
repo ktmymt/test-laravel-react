@@ -9,5 +9,5 @@
     <body>
         <div id="app"></div>
     </body>
-    <script src="{{ mix('/js/app.js') }}"></script>
+    <script src="{{ mix('/js/index.js') }}"></script>
 </html>

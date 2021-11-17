@@ -1,13 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-const App: React.FC = () => {
-  return (
-    <div>
-      <p>こんにちは</p>
-    </div>
-  )
-}
+import { App } from "./components/templates/App"
 
 if (document.getElementById("app")) {
   ReactDOM.render(<App />, document.getElementById("app"))
